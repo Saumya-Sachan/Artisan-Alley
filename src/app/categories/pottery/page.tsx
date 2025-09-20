@@ -1,6 +1,6 @@
 // src/app/categories/jewelry/page.tsx
 import { Suspense } from "react";
-import FilteredProducts from "@/components/marketplace/FilteredProducts";
+import FilteredProducts from "@/components/marketplace/FilteredProducts"; 
 
 export default function JewelryPage() {
   return (
