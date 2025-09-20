@@ -1,0 +1,394 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A 4K background image of an artisan's workshop.",
+      "imageUrl": "https://picsum.photos/seed/hero/1920/1080",
+      "imageHint": "artisan workshop"
+    },
+    {
+      "id": "artisan-portrait-1",
+      "description": "Portrait of featured artisan Riya Sharma.",
+      "imageUrl": "https://picsum.photos/seed/riya/400/400",
+      "imageHint": "indian woman"
+    },
+    {
+      "id": "artisan-banner-1",
+      "description": "Banner image for Riya Sharma's profile.",
+      "imageUrl": "https://picsum.photos/seed/riyabanner/1200/400",
+      "imageHint": "silk weaving"
+    },
+    {
+      "id": "artisan-portrait-2",
+      "description": "Portrait of artisan Arjun Singh.",
+      "imageUrl": "https://picsum.photos/seed/arjun/400/400",
+      "imageHint": "indian man"
+    },
+    {
+      "id": "artisan-banner-2",
+      "description": "Banner image for Arjun Singh's profile.",
+      "imageUrl": "https://picsum.photos/seed/arjunbanner/1200/400",
+      "imageHint": "miniature painting"
+    },
+    {
+      "id": "artisan-portrait-3",
+      "description": "Portrait of artisan Priya Patel.",
+      "imageUrl": "https://picsum.photos/seed/priya/400/400",
+      "imageHint": "woman smile"
+    },
+     {
+      "id": "artisan-banner-3",
+      "description": "Banner image for Priya Patel's profile.",
+      "imageUrl": "https://picsum.photos/seed/priyabanner/1200/400",
+      "imageHint": "jewelry tools"
+    },
+    {
+      "id": "artisan-portrait-4",
+      "description": "Portrait of artisan Meera Desai.",
+      "imageUrl": "https://picsum.photos/seed/meera/400/400",
+      "imageHint": "gujarati woman"
+    },
+    {
+      "id": "artisan-banner-4",
+      "description": "Banner image for Meera Desai's profile.",
+      "imageUrl": "https://picsum.photos/seed/meerabanner/1200/400",
+      "imageHint": "tie dye fabric"
+    },
+    {
+      "id": "artisan-portrait-5",
+      "description": "Portrait of artisan Sameer Khan.",
+      "imageUrl": "https://picsum.photos/seed/sameer/400/400",
+      "imageHint": "kashmiri man"
+    },
+    {
+      "id": "artisan-banner-5",
+      "description": "Banner image for Sameer Khan's profile.",
+      "imageUrl": "https://picsum.photos/seed/sameerbanner/1200/400",
+      "imageHint": "pashmina shawl"
+    },
+    {
+      "id": "artisan-portrait-6",
+      "description": "Portrait of artisan Anjali Devi.",
+      "imageUrl": "https://picsum.photos/seed/anjali/400/400",
+      "imageHint": "bengali woman"
+    },
+    {
+      "id": "artisan-banner-6",
+      "description": "Banner image for Anjali Devi's profile.",
+      "imageUrl": "https://picsum.photos/seed/anjalibanner/1200/400",
+      "imageHint": "terracotta pottery"
+    },
+    {
+      "id": "artisan-portrait-7",
+      "description": "Portrait of artisan Vikram Reddy.",
+      "imageUrl": "https://picsum.photos/seed/vikram/400/400",
+      "imageHint": "man smiling"
+    },
+    {
+      "id": "artisan-banner-7",
+      "description": "Banner image for Vikram Reddy's profile.",
+      "imageUrl": "https://picsum.photos/seed/vikrambanner/1200/400",
+      "imageHint": "woodworking tools"
+    },
+    {
+      "id": "artisan-portrait-8",
+      "description": "Portrait of artisan Fatima Ahmed.",
+      "imageUrl": "https://picsum.photos/seed/fatima/400/400",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "artisan-banner-8",
+      "description": "Banner image for Fatima Ahmed's profile.",
+      "imageUrl": "https://picsum.photos/seed/fatimabanner/1200/400",
+      "imageHint": "embroidery detail"
+    },
+    {
+      "id": "product-pottery-1",
+      "description": "Blue Pottery Vase.",
+      "imageUrl": "https://picsum.photos/seed/beautifulvase/600/600",
+      "imageHint": "blue vase"
+    },
+    {
+      "id": "product-pottery-2",
+      "description": "Another view of Blue Pottery Vase.",
+      "imageUrl": "https://picsum.photos/seed/sidevase/600/600",
+      "imageHint": "painted pottery"
+    },
+    {
+      "id": "product-pottery-3",
+      "description": "Bishnupur Terracotta Plate",
+      "imageUrl": "https://picsum.photos/seed/pot3/600/600",
+      "imageHint": "terracotta plate"
+    },
+    {
+      "id": "product-pottery-4",
+      "description": "Detail of Bishnupur Terracotta Plate",
+      "imageUrl": "https://picsum.photos/seed/pot4/600/600",
+      "imageHint": "clay carving"
+    },
+    {
+      "id": "product-pottery-5",
+      "description": "Kutch Lippan Art",
+      "imageUrl": "https://picsum.photos/seed/pot5/600/600",
+      "imageHint": "mirror mosaic"
+    },
+    {
+      "id": "product-pottery-6",
+      "description": "Detail of Kutch Lippan Art",
+      "imageUrl": "https://picsum.photos/seed/pot6/600/600",
+      "imageHint": "mud wallart"
+    },
+    {
+      "id": "product-pottery-7",
+      "description": "Porcelain Serving Bowl",
+      "imageUrl": "https://picsum.photos/seed/pot7/600/600",
+      "imageHint": "porcelain bowl"
+    },
+    {
+      "id": "product-pottery-8",
+      "description": "Top view of Porcelain Serving Bowl",
+      "imageUrl": "https://picsum.photos/seed/pot8/600/600",
+      "imageHint": "white ceramic"
+    },
+    {
+      "id": "product-pottery-9",
+      "description": "Earthenware Cooking Pot",
+      "imageUrl": "https://picsum.photos/seed/pot9/600/600",
+      "imageHint": "clay pot"
+    },
+    {
+      "id": "product-pottery-10",
+      "description": "Lid of Earthenware Cooking Pot",
+      "imageUrl": "https://picsum.photos/seed/pot10/600/600",
+      "imageHint": "cooking pot"
+    },
+    {
+      "id": "product-jewelry-1",
+      "description": "Kundan Meenakari Necklace.",
+      "imageUrl": "https://picsum.photos/seed/jew1/600/600",
+      "imageHint": "indian necklace"
+    },
+    {
+      "id": "product-jewelry-2",
+      "description": "Detail of Kundan Meenakari Necklace.",
+      "imageUrl": "https://picsum.photos/seed/jew2/600/600",
+      "imageHint": "gemstone jewelry"
+    },
+    {
+      "id": "product-jewelry-3",
+      "description": "Silver Jhumka Earrings",
+      "imageUrl": "https://picsum.photos/seed/jew3/600/600",
+      "imageHint": "silver earrings"
+    },
+    {
+      "id": "product-jewelry-4",
+      "description": "Side view of Silver Jhumka Earrings",
+      "imageUrl": "https://picsum.photos/seed/jew4/600/600",
+      "imageHint": "ethnic jewelry"
+    },
+    {
+      "id": "product-jewelry-5",
+      "description": "Brass Dhokra Bull",
+      "imageUrl": "https://picsum.photos/seed/jew5/600/600",
+      "imageHint": "brass sculpture"
+    },
+    {
+      "id": "product-jewelry-6",
+      "description": "Detail of Brass Dhokra Bull",
+      "imageUrl": "https://picsum.photos/seed/jew6/600/600",
+      "imageHint": "metal art"
+    },
+    {
+      "id": "product-jewelry-7",
+      "description": "Copper Link Bracelet",
+      "imageUrl": "https://picsum.photos/seed/jew7/600/600",
+      "imageHint": "copper bracelet"
+    },
+    {
+      "id": "product-jewelry-8",
+      "description": "Clasp of Copper Link Bracelet",
+      "imageUrl": "https://picsum.photos/seed/jew8/600/600",
+      "imageHint": "metal links"
+    },
+    {
+      "id": "product-jewelry-9",
+      "description": "Mixed Alloy Tribal Ring",
+      "imageUrl": "https://picsum.photos/seed/jew9/600/600",
+      "imageHint": "tribal ring"
+    },
+    {
+      "id": "product-jewelry-10",
+      "description": "Top view of Mixed Alloy Tribal Ring",
+      "imageUrl": "https://picsum.photos/seed/jew10/600/600",
+      "imageHint": "statement ring"
+    },
+    {
+      "id": "product-textiles-1",
+      "description": "Banarasi Silk Saree.",
+      "imageUrl": "https://picsum.photos/seed/tex1/600/600",
+      "imageHint": "silk saree"
+    },
+    {
+      "id": "product-textiles-2",
+      "description": "Zari detail of Banarasi Silk Saree.",
+      "imageUrl": "https://picsum.photos/seed/tex2/600/600",
+      "imageHint": "gold thread"
+    },
+    {
+      "id": "product-textiles-3",
+      "description": "Kashmiri Pashmina Shawl",
+      "imageUrl": "https://picsum.photos/seed/tex3/600/600",
+      "imageHint": "pashmina shawl"
+    },
+    {
+      "id": "product-textiles-4",
+      "description": "Embroidery detail on Kashmiri Pashmina Shawl",
+      "imageUrl": "https://picsum.photos/seed/tex4/600/600",
+      "imageHint": "fine embroidery"
+    },
+    {
+      "id": "product-textiles-5",
+      "description": "Chikankari Kurta",
+      "imageUrl": "https://picsum.photos/seed/tex5/600/600",
+      "imageHint": "white kurta"
+    },
+    {
+      "id": "product-textiles-6",
+      "description": "Embroidery detail on Chikankari Kurta",
+      "imageUrl": "https://picsum.photos/seed/tex6/600/600",
+      "imageHint": "hand embroidery"
+    },
+    {
+      "id": "product-textiles-7",
+      "description": "Linen Summer Scarf",
+      "imageUrl": "https://picsum.photos/seed/tex7/600/600",
+      "imageHint": "linen scarf"
+    },
+    {
+      "id": "product-textiles-8",
+      "description": "Texture of Linen Summer Scarf",
+      "imageUrl": "https://picsum.photos/seed/tex8/600/600",
+      "imageHint": "fabric texture"
+    },
+    {
+      "id": "product-textiles-9",
+      "description": "Jute Wall Hanging",
+      "imageUrl": "https://picsum.photos/seed/tex9/600/600",
+      "imageHint": "jute macrame"
+    },
+    {
+      "id": "product-textiles-10",
+      "description": "Knot detail of Jute Wall Hanging",
+      "imageUrl": "https://picsum.photos/seed/tex10/600/600",
+      "imageHint": "macrame knots"
+    },
+    {
+      "id": "product-woodwork-1",
+      "description": "Sheesham Wood Spice Box.",
+      "imageUrl": "https://picsum.photos/seed/wood1/600/600",
+      "imageHint": "wooden box"
+    },
+    {
+      "id": "product-woodwork-2",
+      "description": "Carving detail on Sheesham Wood Spice Box.",
+      "imageUrl": "https://picsum.photos/seed/wood2/600/600",
+      "imageHint": "wood carving"
+    },
+    {
+      "id": "product-woodwork-3",
+      "description": "Sandalwood Elephant",
+      "imageUrl": "https://picsum.photos/seed/wood3/600/600",
+      "imageHint": "wood elephant"
+    },
+    {
+      "id": "product-woodwork-4",
+      "description": "Detail of Sandalwood Elephant",
+      "imageUrl": "https://picsum.photos/seed/wood4/600/600",
+      "imageHint": "sandalwood carving"
+    },
+    {
+      "id": "product-woodwork-5",
+      "description": "Bamboo Weave Basket",
+      "imageUrl": "https://picsum.photos/seed/wood5/600/600",
+      "imageHint": "bamboo basket"
+    },
+    {
+      "id": "product-woodwork-6",
+      "description": "Weave detail of Bamboo Weave Basket",
+      "imageUrl": "https://picsum.photos/seed/wood6/600/600",
+      "imageHint": "bamboo weave"
+    },
+    {
+      "id": "product-woodwork-7",
+      "description": "Rosewood Pen Stand",
+      "imageUrl": "https://picsum.photos/seed/wood7/600/600",
+      "imageHint": "pen stand"
+    },
+    {
+      "id": "product-woodwork-8",
+      "description": "Top view of Rosewood Pen Stand",
+      "imageUrl": "https://picsum.photos/seed/wood8/600/600",
+      "imageHint": "desk organizer"
+    },
+    {
+      "id": "product-woodwork-9",
+      "description": "Teak Wood Cutting Board",
+      "imageUrl": "https://picsum.photos/seed/wood9/600/600",
+      "imageHint": "cutting board"
+    },
+    {
+      "id": "product-woodwork-10",
+      "description": "Grain detail of Teak Wood Cutting Board",
+      "imageUrl": "https://picsum.photos/seed/wood10/600/600",
+      "imageHint": "wood grain"
+    },
+    {
+      "id": "behind-the-scenes-video-thumb",
+      "description": "Thumbnail for 'Behind the Scenes' video.",
+      "imageUrl": "https://picsum.photos/seed/btsvid/1280/720",
+      "imageHint": "artisan hands"
+    },
+    {
+      "id": "workshop-banner",
+      "description": "A banner image showing a vibrant workshop.",
+      "imageUrl": "https://picsum.photos/seed/workshop/1600/400",
+      "imageHint": "artisan workshop"
+    },
+    {
+      "id": "ugc-image-1",
+      "description": "A user wearing the Kundan Meenakari Necklace.",
+      "imageUrl": "https://picsum.photos/seed/ugc1/600/800",
+      "imageHint": "woman jewelry"
+    },
+    {
+      "id": "ugc-image-2",
+      "description": "A user's living room with the Blue Pottery Vase.",
+      "imageUrl": "https://picsum.photos/seed/ugc2/600/800",
+      "imageHint": "home decor"
+    },
+    {
+      "id": "ugc-image-3",
+      "description": "A user wearing the Kashmiri Pashmina Shawl.",
+      "imageUrl": "https://picsum.photos/seed/ugc3/600/800",
+      "imageHint": "woman fashion"
+    },
+    {
+      "id": "ugc-image-4",
+      "description": "A kitchen with the Sheesham Wood Spice Box.",
+      "imageUrl": "https://picsum.photos/seed/ugc4/600/800",
+      "imageHint": "kitchen decor"
+    },
+    {
+      "id": "ugc-image-5",
+      "description": "A close-up of a user wearing Silver Jhumka Earrings.",
+      "imageUrl": "https://picsum.photos/seed/ugc5/600/800",
+      "imageHint": "earrings fashion"
+    },
+    {
+      "id": "ugc-image-6",
+      "description": "A wall decorated with Kutch Lippan Art.",
+      "imageUrl": "https://picsum.photos/seed/ugc6/600/800",
+      "imageHint": "wall art"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 29% 96%; /* Cream */
+    --foreground: 20 14% 12%; /* Dark Brown */
+    --card: 30 29% 100%;
+    --card-foreground: 20 14% 12%;
+    --popover: 30 29% 100%;
+    --popover-foreground: 20 14% 12%;
+    --primary: 16 72% 58%; /* Terracotta */
+    --primary-foreground: 30 29% 98%;
+    --secondary: 16 20% 90%;
+    --secondary-foreground: 20 14% 20%;
+    --muted: 16 20% 90%;
+    --muted-foreground: 20 14% 40%;
+    --accent: 120 28% 40%; /* Olive Green */
+    --accent-foreground: 30 29% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 16 20% 85%;
+    --input: 16 20% 87%;
+    --ring: 16 72% 58%;
+    --chart-1: 16 72% 58%; /* Terracotta */
+    --chart-2: 120 28% 40%; /* Olive Green */
+    --chart-3: 0 54% 45%; /* Muted Maroon */
+    --chart-4: 20 80% 60%;
+    --chart-5: 40 70% 55%;
+  }
+
+  .dark {
+    --background: 20 14% 10%;
+    --foreground: 30 29% 96%;
+    --card: 20 14% 12%;
+    --card-foreground: 30 29% 96%;
+    --popover: 20 14% 12%;
+    --popover-foreground: 30 29% 96%;
+    --primary: 16 72% 58%;
+    --primary-foreground: 30 29% 98%;
+    --secondary: 20 14% 15%;
+    --secondary-foreground: 30 29% 96%;
+    --muted: 20 14% 15%;
+    --muted-foreground: 30 29% 65%;
+    --accent: 210 40% 50%; /* Deep Blue */
+    --accent-foreground: 30 29% 98%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 20 14% 20%;
+    --input: 20 14% 22%;
+    --ring: 16 72% 58%;
+    --chart-1: 16 72% 58%;
+    --chart-2: 210 40% 50%; /* Deep Blue */
+    --chart-3: 0 54% 55%;
+    --chart-4: 20 80% 60%;
+    --chart-5: 40 70% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    @apply min-h-screen;
+  }
+}
