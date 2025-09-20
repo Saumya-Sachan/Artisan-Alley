@@ -1,11 +1,11 @@
 // src/app/categories/all/page.tsx
 import { Suspense } from "react";
-import AllProductsContent from "../../../components/marketplace/FilteredProducts";
+import FilteredProducts from "@/components/marketplace/FilteredProducts";
 
 export default function AllProductsPage() {
   return (
     <Suspense fallback={<div>Loading products...</div>}>
-      <AllProductsContent />
+      <FilteredProducts title="All Products" />
     </Suspense>
   );
 }
