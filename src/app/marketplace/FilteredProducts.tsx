@@ -1,6 +1,6 @@
-// src/app/categories/all/AllProductsContent.tsx
 'use client';
 
+import { useSearchParams } from "next/navigation";
 import { ProductGrid } from "@/components/marketplace/ProductGrid";
 import { FilterSidebar } from "@/components/marketplace/FilterSidebar";
 import { products } from "@/lib/data";
@@ -10,22 +10,19 @@ import { useIsMobile } from "@/hooks/use-mobile";
 import { Button } from "@/components/ui/button";
 import { Filter } from "lucide-react";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
-import { useSearchParams } from "next/navigation";
 
-export default function AllProductsContent() {
+export default function FilteredProducts({ title }: { title: string }) {
   const { translate } = useLanguage();
   const isMobile = useIsMobile();
   const searchParams = useSearchParams();
 
-  const getArray = (value: string | null): string[] => {
-    if (typeof value === "string") return value.split(",");
-    return [];
-  };
+  const getArray = (value: string | null): string[] =>
+    typeof value === "string" ? value.split(",") : [];
 
-  const selectedProductTypes = getArray(searchParams.get('productType'));
-  const selectedRegions = getArray(searchParams.get('region'));
-  const selectedMaterials = getArray(searchParams.get('material'));
-  const priceParam = searchParams.get('price');
+  const selectedProductTypes = getArray(searchParams.get("productType"));
+  const selectedRegions = getArray(searchParams.get("region"));
+  const selectedMaterials = getArray(searchParams.get("material"));
+  const priceParam = searchParams.get("price");
   const priceRange =
     typeof priceParam === "string"
       ? priceParam.split(",").map(Number)
@@ -51,9 +48,9 @@ export default function AllProductsContent() {
     <div className="container mx-auto px-4 py-8 md:px-6">
       <div className="flex items-center justify-between mb-8">
         <header>
-          <h1 className="font-headline text-4xl font-bold">{translate('All Products')}</h1>
+          <h1 className="font-headline text-4xl font-bold">{translate(title)}</h1>
           <p className="text-muted-foreground">
-            {translate('Browse our entire collection of handcrafted treasures.')}
+            {translate("Browse our entire collection of handcrafted treasures.")}
           </p>
         </header>
         {isMobile && (
@@ -65,7 +62,7 @@ export default function AllProductsContent() {
             </SheetTrigger>
             <SheetContent side="left">
               <SheetHeader>
-                <SheetTitle className="font-headline text-xl">{translate('Filters')}</SheetTitle>
+                <SheetTitle className="font-headline text-xl">{translate("Filters")}</SheetTitle>
               </SheetHeader>
               <FilterSidebar />
             </SheetContent>

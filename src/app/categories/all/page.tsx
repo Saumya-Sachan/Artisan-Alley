@@ -1,6 +1,6 @@
 // src/app/categories/all/page.tsx
 import { Suspense } from "react";
-import AllProductsContent from "./AllProductsContent";
+import AllProductsContent from "../../marketplace/FilteredProducts";
 
 export default function AllProductsPage() {
   return (
