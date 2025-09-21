@@ -17,8 +17,6 @@ import { Button } from "./ui/button";
 const languages = [
   { code: "en", name: "English" },
   { code: "hi", name: "हिन्दी" },
-  { code: "bn", name: "বাংলা" },
-  { code: "ta", name: "தமிழ்" },
   // Add more languages up to 10+
 ];
 
