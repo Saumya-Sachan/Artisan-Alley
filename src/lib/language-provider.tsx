@@ -266,26 +266,6 @@ const translations: Record<string, Record<string, string>> = {
     "Your profile information has been successfully updated.": "आपकी प्रोफ़ाइल जानकारी सफलतापूर्वक अपडेट कर दी गई है।",
     "Menu": "मेनू",
   },
-  bn: {
-    "Home": "হোম",
-    "Marketplace": "বাজার",
-    "Artisans": "কারিগর",
-    "Story Map": "গল্পের মানচিত্র",
-    "Workshops": "কর্মশালা",
-    "Community": "সম্প্রদায়",
-    "Login": "লগইন করুন",
-    "Sign Up": "নিবন্ধন করুন",
-  },
-  ta: {
-    "Home": "முகப்பு",
-    "Marketplace": "சந்தை",
-    "Artisans": "கைவினைஞர்கள்",
-    "Story Map": "கதை வரைபடம்",
-    "Workshops": "பட்டறைகள்",
-    "Community": "சமூகம்",
-    "Login": "உள்நுழைய",
-    "Sign Up": "பதிவுபெறுக",
-  }
 };
 
 
