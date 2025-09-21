@@ -12,7 +12,7 @@ import { Filter } from "lucide-react";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { useSearchParams } from "next/navigation";
 
-export default function AllProductsPage() {
+export default function JewelryPage() {
   const { translate } = useLanguage();
   const isMobile = useIsMobile();
   const searchParams = useSearchParams();
@@ -32,6 +32,8 @@ export default function AllProductsPage() {
       : [0, 100000];
 
   const filteredProducts = products.filter((product: Product) => {
+    if (product.category !== 'Jewelry') return false;
+
     const productTypeMatch =
       selectedProductTypes.length === 0 ||
       selectedProductTypes.includes(product.productType);
@@ -51,12 +53,12 @@ export default function AllProductsPage() {
     <div className="container mx-auto px-4 py-8 md:px-6">
       <div className="flex items-center justify-between mb-8">
         <header>
-            <h1 className="font-headline text-4xl font-bold">{translate('All Products')}</h1>
+            <h1 className="font-headline text-4xl font-bold">{translate('Jewelry')}</h1>
             <p className="text-muted-foreground">
-            {translate('Browse our entire collection of handcrafted treasures.')}
+            {translate('Explore exquisite, handcrafted jewelry.')}
             </p>
         </header>
-        {isMobile && (
+         {isMobile && (
             <Sheet>
                 <SheetTrigger asChild>
                     <Button variant="outline" size="icon">

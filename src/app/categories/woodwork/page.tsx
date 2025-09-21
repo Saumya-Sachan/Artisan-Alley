@@ -1,9 +1,10 @@
-// src/app/categories/jewelry/page.tsx
+// src/app/categories/woodwork/page.tsx
 import { Suspense } from "react";
 import FilteredProducts from "@/components/marketplace/FilteredProducts";
-export default function JewelryPage() {
+
+export default function WoodworkPage() {
   return (
-    <Suspense fallback={<div>Loading jewelry...</div>}>
+    <Suspense fallback={<div>Loading woodwork...</div>}>
       <FilteredProducts title="Woodwork" />
     </Suspense>
   );
